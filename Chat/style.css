@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.chatopen{
+    position: absolute;
+    right: 2%;
+    bottom: 0;
+    width: 220px;
+    height: 35px;
+    background-color: green;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    
+   
+
+}
+.chatopen .fa-comment{
+    color: white;
+   float: left;
+   margin-top: 10px;
+   margin-left: 15px;
+   
+}
+.chatopen p{
+    float: left;
+    padding-left: 30px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+ .chatopen .fa-arrows-h{
+     transform: rotate(130deg);
+     margin-top: 10px;
+     margin-right: 15px;
+     float: right;
+     color: white;
+     font-size: 1.2em;
+     transition:all 0.5s ease;
+}
+.chatopen .fa-arrows-h:hover{
+    color:#3d444d;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: none;
+}
+.chat-zone{
+    height: 400px;
+    background-color: #3d444d;
+    border-radius:0 0 20px 20px;
+    outline: none;
+    overflow-y: scroll;
+}
+
+.call-girl{
+    height: 120px;
+    background: #3d444d;
+    border-bottom: 1px solid #767a81;
+}
+.call-girl .para{
+    margin-left: 150px;
+    margin-top: -15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.call-girl .girl{
+    width: 7%;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    background-image: url("girl.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.girl img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+hr{
+    width: 96%;
+    margin: 0 auto;
+    border-color: #767a81
+}
+.call-boy{
+    height: 120px;
+    background: #3d444d;
+    border-bottom: 1px solid #767a81;
+}
+.call-boy .boy{
+    width: 7%;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+    left: -70px;  
+    float: right;
+    background-image: url("boy.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+ .boy img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+}
+ .par{
+    margin-right: 100px;
+    margin-top: 50px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    float: right;
+
+}
+ .chat-zone-head{
+    border-radius: 18px 18px 0 0;
+    width: 100%;
+    height: 70px;
+    background:#53AA5B;
+}
+ .chat-zone-head .fa-times{
+    float: right;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+.chat-zone-head .fa-comment{
+    color: white;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;  
+    font-size: 30px;
+
+}
+ .chat-zone-head .fa-trash{
+    float: right;
+    color: white;
+    font-size: 27px;
+    margin-top: 18px;
+    margin-right: 30px; 
+    cursor: pointer;
+    display: none;
+} .chat-zone-head p{
+    float: left;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+.message{
+    height: 70px;
+    background:  #3d444d;
+     margin-top: 4%;
+     border-radius: 15px;
+    
+}
+.message input{
+    width: 90%;
+    background: #3d444d;
+    height: 50px;
+    margin-left: 1%;
+    margin-top: 1%;
+    border: none;
+    outline: none;
+    color: white;
+}
+.message .fa-sign-in{
+    position: relative;
+    right: 20px;
+    top: 11px ;
+    font-size: 50px;
+    float: right;
+    color: #53AA5B;
+    cursor: pointer;  
+}
+
+
+
